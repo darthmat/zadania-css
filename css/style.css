@@ -1,0 +1,41 @@
+* {
+  color: red;
+}
+
+.connected p {
+  color: green;
+}
+
+.hover a {
+  color: green;
+  text-decoration: none;
+}
+
+.hover a:hover {
+  color: red;
+}
+
+form input:focus {
+  border: 2px solid brown;
+  outline: 0;
+}
+
+ul li:not(:first-child) {
+  color: green;
+}
+
+ul li:last-child {
+  color: blue;
+}
+
+input[title] {
+  border: 2px solid brown;
+}
+
+input[title="opis"] {
+  border: 2px solid green;
+}
+
+input[title~="input"] {
+  border: 2px solid pink;
+}
